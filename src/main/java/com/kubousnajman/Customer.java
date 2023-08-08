@@ -1,7 +1,10 @@
 package com.kubousnajman;
 
+import jakarta.persistence.Entity;
+
 import java.util.Objects;
 
+@Entity
 public class Customer {
     private Integer id;
     private String name;

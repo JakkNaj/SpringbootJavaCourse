@@ -3,6 +3,7 @@ package com.kubousnajman;
 import jakarta.persistence.*;
 
 import java.util.Objects;
+import java.util.Optional;
 
 @Entity
 public class Customer {
@@ -30,7 +31,6 @@ public class Customer {
     }
 
     public Customer() {
-
     }
 
     public Integer getId() {
